@@ -29,6 +29,11 @@ openjordi/
 └── .gitignore              # Git ignore rules
 ```
 
+## Grant Ontology
+
+We will explore alignment to this schema proposed by CrossRef
+- https://www.crossref.org/documentation/schema-library/markup-guide-record-types/grants/.
+
 ## Installation
 ### Prerequisites
 - Python 3.9+
@@ -45,6 +50,11 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+### 0. Prepare Sources
+```bash
+python scripts/import_sources.py data/sources.csv
+```
+
 ### 1. Fetch Data
 ```bash
 python scripts/fetch_data.py

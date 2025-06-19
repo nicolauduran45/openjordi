@@ -1,0 +1,26 @@
+| Field                 | Description |
+|----------------------|----------------------------------------------------------|
+| `grant_id`       | Funder-supplied grant/award ID |
+| `DOI`               | DOI being registered |
+| `resource`          | URL of the grant landing page |
+| `project_title`     | Can store multiple titles in different languages |
+| `project_description` | Project abstract/description |
+| `funder_name`       | Name of the funder |
+| `funder_id`        | Funder registry ID |
+| `funding_type`     | Type of funding (grant, award, contract, etc.) |
+| `funding_scheme`   | Scheme for grant/award (instrument, call name, etc.) |
+| `internal_award_number` | Internal grant/award number |
+| `start_date`       | Planned start date |
+| `end_date`         | Planned end date |
+| `amount`          | Funding amount |
+| `currency`        | ISO 4217 currency code |
+| `funding_percentage` | % of total funding |
+| `organization_id`  | Unique ID for the organization |
+| `name`            | Name of the organization |
+| `ROR`            | ROR ID for institution disambiguation |
+| `country_code`   | ISO 3166-1 alpha-2 country code |
+| `investigator_id` | Unique ID for investigator |
+| `investigator_role`  | Role (lead_investigator, co-lead, investigator) |
+| `investigator_given_name`     | First name |
+| `investigator_family_name`    | Last name |
+| `investigator_ORCID`         | ORCID ID (as URL) |

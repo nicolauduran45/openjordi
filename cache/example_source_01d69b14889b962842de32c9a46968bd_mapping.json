@@ -1,0 +1,28 @@
+{
+  "source": "example_source",
+  "columns": [
+    "Project Title",
+    "Principal Investigator",
+    "Award Amount",
+    "Grant ID",
+    "Start Date",
+    "End Date",
+    "Organization",
+    "Co-PIs",
+    "Abstract",
+    "Keywords"
+  ],
+  "timestamp": "2025-04-22T17:07:38.690181",
+  "mapping": {
+    "Project Title": "award-title",
+    "Principal Investigator": "principal-investigator",
+    "Award Amount": "award-amount",
+    "Grant ID": "award-number",
+    "Start Date": "award-start",
+    "End Date": "award-end",
+    "Organization": "funder",
+    "Co-PIs": "co-investigator",
+    "Abstract": "project-description",
+    "Keywords": "null"
+  }
+}
